@@ -1,0 +1,48 @@
+CRITICAL - 2023-10-27 13:49:42 --> Too few arguments to function App\Controllers\Accueil::afficher(), 0 passed in /home/2023DIFAL3/e22109603/public_html/V1/ci/system/CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH/Controllers/Accueil.php on line 7.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Accueil->afficher()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:49:42 --> Uncaught ErrorException: chmod() has been disabled for security reasons in /home/2023DIFAL3/e22109603/public_html/V1/ci/system/Log/Handlers/FileHandler.php:119
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/2023DIFAL3/e22109603/public_html/V1/ci/system/Log/Handlers/FileHandler.php(119): chmod()
+#2 /home/2023DIFAL3/e22109603/public_html/V1/ci/system/Log/Logger.php(294): CodeIgniter\Log\Handlers\FileHandler->handle()
+#3 /home/2023DIFAL3/e22109603/public_html/V1/ci/system/Common.php(810): CodeIgniter\Log\Logger->log()
+#4 /home/2023DIFAL3/e22109603/public_html/V1/ci/system/Debug/Exceptions.php(133): log_message()
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#6 {main}
+  thrown
+【Previous Exception】
+ArgumentCountError
+Too few arguments to function App\Controllers\Accueil::afficher(), 0 passed in /home/2023DIFAL3/e22109603/public_html/V1/ci/system/CodeIgniter.php on line 942 and exactly 1 expected
+#0 /home/2023DIFAL3/e22109603/public_html/V1/ci/system/CodeIgniter.php(942): App\Controllers\Accueil->afficher()
+#1 /home/2023DIFAL3/e22109603/public_html/V1/ci/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#2 /home/2023DIFAL3/e22109603/public_html/V1/ci/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/2023DIFAL3/e22109603/public_html/V1/ci/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#4 {main}
+in SYSTEMPATH/Log/Handlers/FileHandler.php on line 119.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-27 13:50:18 --> Undefined variable: parametre_url
+in APPPATH/Views/templates/haut.php on line 10.
+ 1 APPPATH/Views/templates/haut.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2023DIFAL3/e22109603/public_html/V1/ci/app/Views/templates/haut.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Accueil.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Accueil->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 13:50:49 --> Undefined variable: parametre_url
+in APPPATH/Views/templates/haut.php on line 10.
+ 1 APPPATH/Views/templates/haut.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/2023DIFAL3/e22109603/public_html/V1/ci/app/Views/templates/haut.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Accueil.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Accueil->afficher()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
